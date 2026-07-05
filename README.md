@@ -14,7 +14,7 @@ If you are on a Mac, Linux, or Windows machine with Python installed, you can st
 1. Open your terminal.
 2. Navigate to the project directory:
    ```bash
-   cd /Users/bstar/Documents/Personal/Projects/Ideas/MangoFlow
+   cd /MangoFlow
    ```
 3. Start the HTTP server:
    ```bash
@@ -37,7 +37,7 @@ If you use Visual Studio Code:
 ### Option 3: Using Node.js / npx
 If you have Node.js installed, you can use `http-server` or `serve`:
 ```bash
-cd /Users/bstar/Documents/Personal/Projects/Ideas/MangoFlow
+cd /MangoFlow
 npx serve .
 ```
 
