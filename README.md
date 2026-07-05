@@ -1,6 +1,6 @@
 # 🥭 MangoFlow — Fruit Mandi Order Management System
 
-A prototype order management system built for **Fruit Mandi (Usama Ramay)** to replace manual WhatsApp order tracking with a streamlined, shareable order form and an admin dashboard.
+A prototype order management system built for **Fruit Mandi ** to replace manual WhatsApp order tracking with a streamlined, shareable order form and an admin dashboard.
 
 ---
 
