@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fruit Mandi — Fresh Pakistani Mangoes Delivered to Your Door in the UK</title>
+  <meta name="description" content="Order premium Pakistani mangoes — Sindhri, Chaunsa, Anwar Ratol, Langra — delivered fresh to your door across the UK. Direct from Pakistan's finest orchards.">
+  <meta name="keywords" content="Pakistani mangoes UK, Sindhri mango, Chaunsa mango, mango delivery UK, Fruit Mandi, fresh mangoes Glasgow, desi mangoes">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥭</text></svg>">
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <span class="brand-icon">🥭</span>
+        <span>Fruit<span class="brand-highlight">Mandi</span></span>
+      </a>
+      <div class="navbar-links">
+        <a href="#products">Mangoes</a>
+        <a href="#order-form">Order</a>
+        <a href="https://wa.me/4403074583132" target="_blank" class="btn btn-whatsapp btn-sm">
+          💬 WhatsApp
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ── Hero Section ── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="assets/hero.png" alt="Fresh Pakistani Mangoes">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>Premium <span class="gold">Pakistani Mangoes</span> Delivered to Your Door</h1>
+      <p class="hero-subtitle">
+        Straight from Pakistan's finest orchards to your home in the UK. 
+        Hand-picked, export-quality mangoes — the taste of home, delivered fresh.
+      </p>
+      <a href="#products" class="btn btn-primary btn-lg">
+        🥭 Order Now
+      </a>
+      <div class="hero-badges">
+        <span class="hero-badge">🇵🇰 Direct from Pakistan</span>
+        <span class="hero-badge">✈️ Air-freighted Fresh</span>
+        <span class="hero-badge">🇬🇧 UK-wide Delivery</span>
+        <span class="hero-badge">📦 Export Quality</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Main Content ── -->
+  <main class="container">
+    <div class="order-page-layout">
+
+      <!-- ── Left Column: Products + Form ── -->
+      <div class="order-main">
+
+        <!-- Step Indicator -->
+        <div class="steps" id="step-indicator">
+          <div class="step active" data-step="1">
+            <span class="step-number">1</span>
+            <span class="step-label">Select Mangoes</span>
+          </div>
+          <div class="step-divider"></div>
+          <div class="step" data-step="2">
+            <span class="step-number">2</span>
+            <span class="step-label">Your Details</span>
+          </div>
+          <div class="step-divider"></div>
+          <div class="step" data-step="3">
+            <span class="step-number">3</span>
+            <span class="step-label">Confirm</span>
+          </div>
+        </div>
+
+        <!-- ── Step 1: Select Mangoes ── -->
+        <section id="step-1-content">
+          <h2 id="products">Choose Your Mangoes</h2>
+          <p class="section-subtitle" style="text-align:left; margin-left:0;">
+            Select one or more varieties. Each box is carefully packed for freshness.
+          </p>
+
+          <div class="grid-2" id="product-grid">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- Selected product configs -->
+          <div id="product-configs" class="mt-lg">
+            <!-- Rendered by JS when products are selected -->
+          </div>
+
+          <div class="mt-xl" style="display: flex; justify-content: flex-end;">
+            <button class="btn btn-primary btn-lg" id="btn-to-step-2" disabled>
+              Continue to Details →
+            </button>
+          </div>
+        </section>
+
+        <!-- ── Step 2: Customer Details ── -->
+        <section id="step-2-content" class="hidden">
+          <h2>Delivery Details</h2>
+          <p class="section-subtitle" style="text-align:left; margin-left:0;">
+            Where should we deliver your mangoes?
+          </p>
+
+          <form id="customer-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="customer-name">
+                  Full Name <span class="required">*</span>
+                </label>
+                <input type="text" id="customer-name" class="form-input"
+                       placeholder="e.g. Ahmed Khan" required>
+                <div class="form-error">Please enter your full name</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="customer-phone">
+                  Phone Number <span class="required">*</span>
+                </label>
+                <input type="tel" id="customer-phone" class="form-input"
+                       placeholder="e.g. 07412 345678" required>
+                <div class="form-error">Please enter a valid UK phone number</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="customer-address">
+                Delivery Address <span class="required">*</span>
+              </label>
+              <input type="text" id="customer-address" class="form-input"
+                     placeholder="e.g. 24 Victoria Road" required>
+              <div class="form-error">Please enter your delivery address</div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="customer-city">
+                  City <span class="required">*</span>
+                </label>
+                <input type="text" id="customer-city" class="form-input"
+                       placeholder="e.g. Glasgow" required>
+                <div class="form-error">Please enter your city</div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="customer-postcode">
+                  Postcode <span class="required">*</span>
+                </label>
+                <input type="text" id="customer-postcode" class="form-input"
+                       placeholder="e.g. G42 8YL" required>
+                <div class="form-error">Please enter your postcode</div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="customer-notes">
+                Special Instructions (optional)
+              </label>
+              <textarea id="customer-notes" class="form-input"
+                        placeholder="e.g. Ring the bell twice, leave at the door, etc."></textarea>
+            </div>
+
+            <div class="flex gap-md" style="justify-content: space-between;">
+              <button type="button" class="btn btn-secondary" id="btn-back-to-1">
+                ← Back
+              </button>
+              <button type="submit" class="btn btn-primary btn-lg">
+                Review Order →
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- ── Step 3: Confirmation ── -->
+        <section id="step-3-content" class="hidden">
+          <div class="confirmation" id="confirmation-screen">
+            <!-- Rendered by JS after order placement -->
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ── Right Column: Order Summary (Sticky) ── -->
+      <div class="order-summary-sticky" id="order-summary-wrapper">
+        <div class="order-summary" id="order-summary">
+          <div class="order-summary-header">
+            <h3>🧾 Your Order</h3>
+            <p>Items will appear here as you select</p>
+          </div>
+          <div class="order-summary-body" id="order-summary-body">
+            <div class="order-summary-empty">
+              <span class="empty-icon">🥭</span>
+              <p>Select your favourite mangoes to get started!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="footer">
+    <div class="container">
+      <p>🥭 <strong>Fruit Mandi</strong> — Mithas Bhare Export Quality Mangoes</p>
+      <p class="mt-sm">
+        WhatsApp: <a href="https://wa.me/4403074583132">03074583132</a> •
+        <a href="dashboard.html">Supplier Dashboard</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/storage.js"></script>
+  <script src="js/order.js"></script>
+</body>
+</html>
