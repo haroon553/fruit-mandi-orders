@@ -6,8 +6,8 @@ A prototype order management system built for **Fruit Mandi ** to replace manual
 
 ## 🎬 60-Second Video Walkthrough
 
-Watch the full automated 60-second walkthrough showing customer order selection, form submission, and supplier admin dashboard filtering:
-👉 **[Watch Video Walkthrough (mangoflow_demo.webm)](https://github.com/haroon553/fruit-mandi-orders/raw/main/mangoflow_demo.webm)**
+Watch the full automated 60-second walkthrough (with soothing background music, high resolution, and full scroll centering) showing customer order selection, form submission, and supplier admin dashboard filtering:
+👉 **[Watch Video Walkthrough with Music (mangoflow_demo_v2.mp4)](https://github.com/haroon553/fruit-mandi-orders/raw/main/mangoflow_demo_v2.mp4)**
 
 ---
 
