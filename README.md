@@ -4,6 +4,13 @@ A prototype order management system built for **Fruit Mandi ** to replace manual
 
 ---
 
+## 🎬 60-Second Video Walkthrough
+
+Watch the full automated 60-second walkthrough showing customer order selection, form submission, and supplier admin dashboard filtering:
+👉 **[Watch Video Walkthrough (mangoflow_demo.webm)](https://github.com/haroon553/fruit-mandi-orders/raw/main/mangoflow_demo.webm)**
+
+---
+
 ## 🚀 How to Run the Application Locally
 
 Since MangoFlow is built using pure vanilla HTML, CSS, and JavaScript with no external dependencies or backend requirements, running it locally is extremely simple.
