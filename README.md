@@ -71,7 +71,7 @@ npx serve .
 
 ## 🌐 How to Deploy for Free (To Share with the Supplier!)
 
-When you are ready to demo this to Usama Ramay (Fruit Mandi), you can deploy it online for free in less than 2 minutes:
+When you are ready to demo this, you can deploy it online for free in less than 2 minutes:
 
 ### Method A: GitHub Pages (Free & Reliable)
 1. Push the `MangoFlow` folder to a new public repository on GitHub.
